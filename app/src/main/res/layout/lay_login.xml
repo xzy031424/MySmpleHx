@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        
+        <EditText
+            android:id="@+id/login_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x50"
+            android:text="swd004"
+            android:hint="请输入用户名"
+            />
+        <EditText
+            android:id="@+id/login_pwd"
+            android:layout_width="match_parent"
+            android:text="123456"
+            android:layout_height="@dimen/x50"
+            android:hint="请输入用密码"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/gotoReg_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x20"
+                android:layout_marginTop="@dimen/x10"
+                android:text="去注册"
+                />
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x50"
+            android:layout_marginTop="@dimen/x50"
+
+            android:text="登录"/>
+        
+    </LinearLayout>
+
+</RelativeLayout>
